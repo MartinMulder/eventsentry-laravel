@@ -8,6 +8,11 @@
         }
     ],
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "MartinMulder\\EventSentry\\Laravel\\": "src"
+        }
+    },
     "extra": {
         "laravel": {
             "dont-discover": [],
