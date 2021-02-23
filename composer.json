@@ -1,0 +1,22 @@
+{
+    "name": "martinmulder/eventsentry-laravel",
+    "description": "EventSentry log collector for laravel",
+    "authors": [
+        {
+            "name": "Martin Mulder",
+            "email": "martin@serioussecurity.nl"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "dont-discover": [],
+            "providers": [
+                "MartinMulder\\EventSentry\\Laravel\\EventSentryServiceProvider"
+            ],
+            "aliases": { 
+                "EventSentry": "MartinMulder\\EventSentry\\Laravel\\Facades\\EventSentry"
+            }
+        }
+    }
+}
